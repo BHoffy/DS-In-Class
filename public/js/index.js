@@ -23,6 +23,20 @@ const Offer = {
             ]
         }
     },
+
+    computed: { 
+      prettyBirthday() {
+        return day.js(person.dob.date)
+        .format('DD/MM/YYYY')
+
+
+      }
+    
+    },
+
+    methods: {
+
+    },
     created() {
       console.log("A");
       fetch('https://randomuser.me/api/')
