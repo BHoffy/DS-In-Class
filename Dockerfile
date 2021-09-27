@@ -1,6 +1,6 @@
 FROM php:7.4-apache
 
-LABEL maintainer="Brandon Hoffman"
+LABEL maintainer="Tom Gregory"
 
 #Set the working directory in the image
 WORKDIR /var/www/html
